@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Image from "next/Image";
-import Link from 'next/Link';
+import Link from 'next/link';
 
 // const GirlGlasses: HTMLImageElement = require('../images/oladimeji-odunsi-Wu3yqve2gnc-unsplash-cropped.jpg');
 // const GirlGlasses = require('../images/oladimeji-odunsi-Wu3yqve2gnc-unsplash-cropped.jpg');

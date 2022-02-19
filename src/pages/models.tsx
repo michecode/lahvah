@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Image from "next/Image";
-import Link from "next/Link";
+import Link from "next/link";
 
 import FarmGirl from "../images/scroll/farmgorl.jpg";
 import AfroGuy from "../images/scroll/afrodude.jpg";

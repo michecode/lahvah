@@ -25,7 +25,7 @@ export default function Navigation() {
   return (
     <>
     <header className="relative flex justify-end items-end mt-12 sm:mb-12 md:mb-4 px-8 sm:px-32 ">
-      <h1 className="font-serif text-4xl mr-auto sm:text-4xl md:text-8xl">
+      <h1 className="font-serif text-4xl mr-auto sm:text-4xl md:text-7xl xl:text-8xl">
         <Link href="/">
           <a>lahvah</a>
         </Link>
@@ -40,9 +40,10 @@ export default function Navigation() {
             className="
           ml-auto
           font-serif
-          text-4xl
-          md:text-5xl
-          lg:text-6xl
+          text-3xl
+          md:text-4xl
+          lg:text-5xl
+          xl:text-6xl
           inline-block
           relative
           no-underline
@@ -68,9 +69,10 @@ export default function Navigation() {
             className="
           mx-10
           font-serif
-          text-4xl
-          md:text-5xl
-          lg:text-6xl
+          text-3xl
+          md:text-4xl
+          lg:text-5xl
+          xl:text-6xl
           inline-block
           relative
           no-underline

@@ -41,16 +41,16 @@ export default function Index({
     // layout is relative for the lahvah clip graphic at bottom of page
     <Layout title={"Lahvah"}>
       <div className="w-10/12 mt-12 sm:w-9/12 mx-auto">
-        <div className="w-[70%] mx-auto sm:hidden">
+        <div className="w-[70%] mx-auto lg:hidden">
           <Image src={GirlGlassesVert} />
         </div>
-        <h1 className="font-serif text-5xl text-center sm:hidden">not your typical agency</h1>
-        <div className="hidden sm:block">
+        <h1 className="font-serif text-5xl text-center lg:hidden">not your typical agency</h1>
+        <div className="hidden lg:block">
           <Image src={GirlGlasses} />
         </div>
         {/* ABOUT */}
-        <div className="mt-16 sm:grid sm:grid-cols-2">
-          <div className="sm:mr-40">
+        <div className="mt-16 lg:grid lg:grid-cols-2">
+          <div className="lg:mr-40">
             <h3 className="font-serif text-4xl sm:text-6xl sm:mb-16">About Us</h3>
             <p className="text-xl sm:mb-8 font-sans">
               Lahvah is a young modeling agency based in Los Angeles that
@@ -63,7 +63,7 @@ export default function Index({
             </p>
           </div>
           <div className="">
-            <h1 className="hidden sm:block font-serif text-7xl sm:text-9xl ml-16 sm:leading-tight">
+            <h1 className="hidden lg:block font-serif md:text-7xl lg:text-8xl 2xl:text-9xl ml-16 sm:leading-tight">
               not your typical agency
             </h1>
           </div>
@@ -161,7 +161,8 @@ export default function Index({
               <Link href="/contact">
                 <a
                   className="font-serif
-          text-6xl
+          lg:text-4xl
+                  2xl:text-6xl
           inline-block
           relative
           no-underline

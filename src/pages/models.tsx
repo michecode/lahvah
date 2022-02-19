@@ -34,8 +34,7 @@ Also so you dont delete it. Having mirrored hover and active states makes the ho
 */
 
 const RoseGirlBlock = (
-  <div className="group h-[225px] w-[150px] md:h-[300px] md:w-[200px] lg:h-[700px] lg:w-[466px] md:mx-2 lg:mr-8 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
-    {/* <div className="group h-[225px] w-[150px] md:h-[300px] md:w-[200px] lg:h-[700px] lg:w-[466px] md:mx-2 lg:mr-8 relative hover:outline-4 hover:outline hover:outline-offset-4 active:outline-4 active:outline active:outline-offset-4"></div> */}
+  <div className="group h-fit w-[40vw] md:w-[25vw] md:mx-2 lg:mr-4 2xl:mr-8 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
     <Image src={RoseGirl} className="group-hover:blur-sm" />
     <text className="font-sans group-hover:hidden">WENDY COOKS</text>
     {/* stats */}
@@ -46,9 +45,11 @@ const RoseGirlBlock = (
     group-hover:flex-col
     group-hover:absolute
     group-hover:bottom-2
-    lg:group-hover:bottom-8
+    lg:group-hover:bottom-4
+    2xl:group-hover:bottom-8
     group-hover:right-2
-    lg:group-hover:right-8
+    lg:group-hover:right-4
+    2xl:group-hover:right-8
 "
     >
       <text className="font-sans text-sm md:text-xl lg:text-2xl text-white">
@@ -79,12 +80,14 @@ const RoseGirlBlock = (
     group-hover:block
     group-hover:absolute
     group-hover:top-2
-    lg:group-hover:top-8
+    lg:group-hover:top-4
+    2xl:group-hover:top-8
     group-hover:left-2
-    lg:group-hover:left-8
+    lg:group-hover:left-4
+    2xl:group-hover:left-8
 "
     >
-      <text className="font-sans text-xl md:text-3xl lg:text-6xl text-white mx-auto sm:mx-0">
+      <text className="font-sans text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-white mx-auto sm:mx-0">
         WENDY COOKS
       </text>
     </div>
@@ -92,20 +95,23 @@ const RoseGirlBlock = (
 );
 
 const FarmGirlBlock = (
-  <div className="group h-[225px] w-[150px] md:h-[300px] md:w-[200px] lg:h-[700px] lg:w-[466px] md:mx-4 lg:mx-16 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
+  <div className="group h-fit w-[40vw] md:w-[25vw] md:mx-4 lg:mx-8 2xl:mx-16 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
     <Image src={FarmGirl} className="group-hover:blur-sm" />
     <text className="font-sans group-hover:hidden">JESS FELLOWS</text>
     {/* stats */}
     <div
       className="
       hidden
-      group-hover:flex
-      group-hover:flex-col
-      group-hover:absolute
-      group-hover:bottom-2
-      lg:group-hover:bottom-8
-      group-hover:right-2
-      lg:group-hover:right-8"
+    group-hover:flex
+    group-hover:flex-col
+    group-hover:absolute
+    group-hover:bottom-2
+    lg:group-hover:bottom-4
+    2xl:group-hover:bottom-8
+    group-hover:right-2
+    lg:group-hover:right-4
+    2xl:group-hover:right-8
+    "
     >
       <text className="font-sans text-sm md:text-xl lg:text-2xl text-white">
         {"HEIGHT 5'7\""}
@@ -135,12 +141,14 @@ const FarmGirlBlock = (
     group-hover:block
     group-hover:absolute
     group-hover:top-2
-    lg:group-hover:top-8
+    lg:group-hover:top-4
+    2xl:group-hover:top-8
     group-hover:left-2
-    lg:group-hover:left-8
+    lg:group-hover:left-4
+    2xl:group-hover:left-8
 "
     >
-      <text className="font-sans text-xl md:text-3xl lg:text-6xl text-white">
+      <text className="font-sans text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-white mx-auto sm:mx-0">
         JESS FELLOWS
       </text>
     </div>
@@ -148,7 +156,7 @@ const FarmGirlBlock = (
 );
 
 const AfroGuyBlock = (
-  <div className="group h-[225px] w-[150px] md:h-[300px] md:w-[200px] lg:h-[700px] lg:w-[466px] md:mx-2 lg:ml-8 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
+  <div className="group h-fit w-[40vw] md:w-[25vw] md:mx-2 lg:ml-4 2xl:ml-8 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
     <Image src={AfroGuy} className="group-hover:blur-sm" />
     <text className="font-sans group-hover:hidden">ALEX HAUST</text>
     {/* stats */}
@@ -159,9 +167,11 @@ const AfroGuyBlock = (
     group-hover:flex-col
     group-hover:absolute
     group-hover:bottom-2
-    lg:group-hover:bottom-8
+    lg:group-hover:bottom-4
+    2xl:group-hover:bottom-8
     group-hover:right-2
-    lg:group-hover:right-8
+    lg:group-hover:right-4
+    2xl:group-hover:right-8
 "
     >
       <text className="font-sans text-sm md:text-xl lg:text-2xl text-white">
@@ -192,12 +202,14 @@ const AfroGuyBlock = (
     group-hover:block
     group-hover:absolute
     group-hover:top-2
-    lg:group-hover:top-8
+    lg:group-hover:top-4
+    2xl:group-hover:top-8
     group-hover:left-2
-    lg:group-hover:left-8
+    lg:group-hover:left-4
+    2xl:group-hover:left-8
 "
     >
-      <text className="font-sans text-xl md:text-3xl lg:text-6xl text-white">
+      <text className="font-sans text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-white mx-auto sm:mx-0">
         ALEX HAUST
       </text>
     </div>
@@ -205,7 +217,7 @@ const AfroGuyBlock = (
 );
 
 const GlassGirlBlock = (
-  <div className="group h-[225px] w-[150px] md:h-[450px] md:w-[300px] lg:h-[900px] lg:w-[600px] md:ml-4 lg:ml-16 mr-4 lg:mr-28 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
+  <div className="group h-fit w-[40vw] md:w-[40vw] md:ml-4 lg:ml-16 mr-4 lg:mr-16 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
     <Image src={GlassGirl} className="group-hover:blur-sm" />
     <text className="font-sans group-hover:hidden">SUMMER ARAGON</text>
     {/* stats */}
@@ -216,30 +228,32 @@ const GlassGirlBlock = (
     group-hover:flex-col
     group-hover:absolute
     group-hover:bottom-2
-    lg:group-hover:bottom-8
+    lg:group-hover:bottom-4
+    2xl:group-hover:bottom-8
     group-hover:right-2
-    lg:group-hover:right-8
+    lg:group-hover:right-4
+    2xl:group-hover:right-8
 "
     >
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {"HEIGHT 5'7\""}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {'BUST 32"'}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {'WAIST 24"'}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {'HIPS 34.5"'}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {"SHOE 8 US"}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {"EYES BROWN"}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {"HAIR BLACK"}
       </text>
     </div>
@@ -249,12 +263,14 @@ const GlassGirlBlock = (
     group-hover:block
     group-hover:absolute
     group-hover:top-2
-    lg:group-hover:top-8
+    lg:group-hover:top-4
+    2xl:group-hover:top-8
     group-hover:left-2
-    lg:group-hover:left-8
+    lg:group-hover:left-4
+    2xl:group-hover:left-8
 "
     >
-      <text className="font-sans text-xl md:text-4xl lg:text-6xl text-white">
+      <text className="font-sans text-xl md:text-4xl lg:text-5xl 2xL:text-6xl text-white">
         SUMMER ARAGON
       </text>
     </div>
@@ -262,7 +278,7 @@ const GlassGirlBlock = (
 );
 
 const PurpGirlBlock = (
-  <div className="group h-[225px] w-[150px] md:h-[450px] md:w-[300px] lg:h-[900px] lg:w-[600px] md:ml-4 lg:ml-28 mr-4 lg:mr-16 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
+  <div className="group h-fit w-[40vw] md:w-[40vw] md:ml-4 lg:ml-16 mr-4 lg:mr-16 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
     <Image src={PurpGirl} className="group-hover:blur-sm" />
     <text className="font-sans group-hover:hidden">AMANDA BINES</text>
     {/* stats */}
@@ -273,30 +289,32 @@ const PurpGirlBlock = (
     group-hover:flex-col
     group-hover:absolute
     group-hover:bottom-2
-    lg:group-hover:bottom-8
+    lg:group-hover:bottom-4
+    2xl:group-hover:bottom-8
     group-hover:right-2
-    lg:group-hover:right-8
+    lg:group-hover:right-4
+    2xl:group-hover:right-8
 "
     >
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {"HEIGHT 5'7\""}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {'BUST 32"'}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {'WAIST 24"'}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {'HIPS 34.5"'}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {"SHOE 8 US"}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {"EYES BROWN"}
       </text>
-      <text className="font-sans text-sm md:text-2xl lg:text-5xl text-white">
+      <text className="font-sans text-sm md:text-2xl lg:text-3xl 2xl:text-5xl text-white">
         {"HAIR BLACK"}
       </text>
     </div>
@@ -306,11 +324,13 @@ const PurpGirlBlock = (
     group-hover:block
     group-hover:absolute
     group-hover:top-2
-    lg:group-hover:top-8
+    lg:group-hover:top-4
+    2xl:group-hover:top-8
     group-hover:left-2
-    lg:group-hover:left-8"
+    lg:group-hover:left-4
+    2xl:group-hover:left-8"
     >
-      <text className="font-sans text-xl md:text-4xl lg:text-6xl text-white">
+      <text className="font-sans text-xl md:text-4xl lg:text-5xl 2xL:text-6xl text-white">
         AMANDA BINES
       </text>
     </div>
@@ -318,7 +338,7 @@ const PurpGirlBlock = (
 );
 
 const BlueGuyBlock = (
-  <div className="group h-[225px] w-[150px] md:h-[300px] md:w-[200px] lg:h-[700px] lg:w-[466px] md:mx-2 lg:mr-8 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
+  <div className="group h-fit w-[40vw] md:w-[25vw] md:mx-2 lg:mr-4 2xl:mr-8 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
     <Image src={BlueGuy} className="group-hover:blur-sm" />
     <text className="font-sans group-hover:hidden">LUCAS GAUVEA</text>
     {/* stats */}
@@ -329,9 +349,11 @@ const BlueGuyBlock = (
     group-hover:flex-col
     group-hover:absolute
     group-hover:bottom-2
-    lg:group-hover:bottom-8
+    lg:group-hover:bottom-4
+    2xl:group-hover:bottom-8
     group-hover:right-2
-    lg:group-hover:right-8
+    lg:group-hover:right-4
+    2xl:group-hover:right-8
 "
     >
       <text className="font-sans text-sm md:text-xl lg:text-2xl text-white">
@@ -362,12 +384,14 @@ const BlueGuyBlock = (
     group-hover:block
     group-hover:absolute
     group-hover:top-2
-    lg:group-hover:top-8
+    lg:group-hover:top-4
+    2xl:group-hover:top-8
     group-hover:left-2
-    lg:group-hover:left-8
+    lg:group-hover:left-4
+    2xl:group-hover:left-8
 "
     >
-      <text className="font-sans text-xl md:text-3xl lg:text-6xl text-white">
+      <text className="font-sans text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-white mx-auto sm:mx-0">
         LUCAS GAUVEA
       </text>
     </div>
@@ -375,7 +399,7 @@ const BlueGuyBlock = (
 );
 
 const CrazyGirlBlock = (
-  <div className="group h-[225px] w-[150px] md:h-[300px] md:w-[200px] lg:h-[700px] lg:w-[466px] md:mx-4 lg:mx-16 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
+  <div className="group h-fit w-[40vw] md:w-[25vw] md:mx-4 lg:mx-8 2xl:mx-16 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
     <Image src={CrazyGirl} className="group-hover:blur-sm" />
     <text className="font-sans group-hover:hidden">EDELIN MONTAY</text>
     {/* stats */}
@@ -386,9 +410,11 @@ const CrazyGirlBlock = (
     group-hover:flex-col
     group-hover:absolute
     group-hover:bottom-2
-    lg:group-hover:bottom-8
+    lg:group-hover:bottom-4
+    2xl:group-hover:bottom-8
     group-hover:right-2
-    lg:group-hover:right-8
+    lg:group-hover:right-4
+    2xl:group-hover:right-8
 "
     >
       <text className="font-sans text-sm md:text-xl lg:text-2xl text-white">
@@ -419,12 +445,14 @@ const CrazyGirlBlock = (
     group-hover:block
     group-hover:absolute
     group-hover:top-2
-    lg:group-hover:top-8
+    lg:group-hover:top-4
+    2xl:group-hover:top-8
     group-hover:left-2
-    lg:group-hover:left-8
+    lg:group-hover:left-4
+    2xl:group-hover:left-8
 "
     >
-      <text className="font-sans text-xl md:text-3xl lg:text-6xl text-white">
+      <text className="font-sans text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-white mx-auto sm:mx-0">
         EDELIN MONTAY
       </text>
     </div>
@@ -432,7 +460,7 @@ const CrazyGirlBlock = (
 );
 
 const HazyGirlBlock = (
-  <div className="group h-[225px] w-[150px] md:h-[300px] md:w-[200px] lg:h-[700px] lg:w-[466px] md:mx-2 lg:ml-8 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
+  <div className="group h-fit w-[40vw] md:w-[25vw] md:mx-2 lg:ml-4 2xl:ml-8 relative hover:outline-4 hover:outline hover:outline-offset-1 sm:hover:outline-offset-4">
     <Image src={HazyGirl} className="group-hover:blur-sm" />
     <text className="font-sans group-hover:hidden">LORAINE NILE</text>
     {/* stats */}
@@ -443,9 +471,11 @@ const HazyGirlBlock = (
     group-hover:flex-col
     group-hover:absolute
     group-hover:bottom-2
-    lg:group-hover:bottom-8
+    lg:group-hover:bottom-4
+    2xl:group-hover:bottom-8
     group-hover:right-2
-    lg:group-hover:right-8
+    lg:group-hover:right-4
+    2xl:group-hover:right-8
 "
     >
       <text className="font-sans text-sm md:text-xl lg:text-2xl text-white">
@@ -476,12 +506,14 @@ const HazyGirlBlock = (
     group-hover:block
     group-hover:absolute
     group-hover:top-2
-    lg:group-hover:top-8
+    lg:group-hover:top-4
+    2xl:group-hover:top-8
     group-hover:left-2
-    lg:group-hover:left-8
+    lg:group-hover:left-4
+    2xl:group-hover:left-8
 "
     >
-      <text className="font-sans text-xl md:text-3xl lg:text-6xl text-white">
+      <text className="font-sans text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-white mx-auto sm:mx-0">
         LORAINE NILE
       </text>
     </div>
@@ -512,20 +544,20 @@ export default function Models({
         {/* this group is for tablet+ layouts */}
         <div className="hidden md:block">
           {/* 1st row */}
-          <div className="flex md:mb-16 lg:mb-32">
+          <div className="flex md:mb-8 lg:mb-8 2xl:mb-12">
             {RoseGirlBlock}
             {FarmGirlBlock}
             {AfroGuyBlock}
           </div>
           {/* 2nd row */}
-          <div className="relative md:mb-12 lg:h-[1000px]">
-            <div className="flex lg:h-[900px]">
+          <div className="relative md:mb-12 ">
+            <div className="flex">
               {GlassGirlBlock}
               {PurpGirlBlock}
             </div>
           </div>
           {/* 3rd row */}
-          <div className="flex lg:h-[700px] md:mb-12 lg:mb-32">
+          <div className="flex md:mb-12 lg:mb-32">
             {BlueGuyBlock}
             {CrazyGirlBlock}
             {HazyGirlBlock}
@@ -534,7 +566,7 @@ export default function Models({
       </div>
       {/* FOOTER */}
       <div className="flex flex-col">
-        <h1 className="font-sans md:text-3xl lg:text-6xl mx-auto">
+        <h1 className="font-sans md:text-3xl lg:text-4xl 2xl:text-6xl mx-auto">
           Were always on the look out for new models.
         </h1>
         <Link href="/contact">
@@ -545,7 +577,8 @@ export default function Models({
           font-sans
           text-3xl
           md:text-4xl
-          lg:text-6xl
+          lg:text-5xl
+          2xl:text-6xl
           inline-block
           relative
           no-underline

@@ -37,13 +37,13 @@ export default function Models({
             <text className="font-sans group-hover:hidden">WENDY COOKS</text>
             {/* stats */}
             <div className="hidden group-hover:flex group-hover:flex-col group-hover:absolute group-hover:bottom-8 group-hover:right-8">
-              <text className="font-sans text-3xl text-white">HEIGHT 5'7"</text>
-              <text className="font-sans text-3xl text-white">BUST 32"</text>
-              <text className="font-sans text-3xl text-white">WAIST 24"</text>
-              <text className="font-sans text-3xl text-white">HIPS 34.5"</text>
-              <text className="font-sans text-3xl text-white">SHOE 8 US</text>
-              <text className="font-sans text-3xl text-white">EYES BROWN</text>
-              <text className="font-sans text-3xl text-white">HAIR BLACK</text>
+              <text className="font-sans text-3xl text-white">{"HEIGHT 5'7\""}</text>
+              <text className="font-sans text-3xl text-white">{"BUST 32\""}</text>
+              <text className="font-sans text-3xl text-white">{"WAIST 24\""}</text>
+              <text className="font-sans text-3xl text-white">{"HIPS 34.5\""}</text>
+              <text className="font-sans text-3xl text-white">{"SHOE 8 US"}</text>
+              <text className="font-sans text-3xl text-white">{"EYES BROWN"}</text>
+              <text className="font-sans text-3xl text-white">{"HAIR BLACK"}</text>
             </div>
             <div className="hidden group-hover:block group-hover:absolute group-hover:top-8 group-hover:left-8">
               <text className="font-sans text-6xl text-white">WENDY COOKS</text>
@@ -54,13 +54,13 @@ export default function Models({
             <text className="font-sans group-hover:hidden">JESS FELLOWS</text>
             {/* stats */}
             <div className="hidden group-hover:flex group-hover:flex-col group-hover:absolute group-hover:bottom-8 group-hover:right-8">
-              <text className="font-sans text-3xl text-white">HEIGHT 5'7"</text>
-              <text className="font-sans text-3xl text-white">BUST 32"</text>
-              <text className="font-sans text-3xl text-white">WAIST 24"</text>
-              <text className="font-sans text-3xl text-white">HIPS 34.5"</text>
-              <text className="font-sans text-3xl text-white">SHOE 8 US</text>
-              <text className="font-sans text-3xl text-white">EYES BROWN</text>
-              <text className="font-sans text-3xl text-white">HAIR BLACK</text>
+            <text className="font-sans text-3xl text-white">{"HEIGHT 5'7\""}</text>
+              <text className="font-sans text-3xl text-white">{"BUST 32\""}</text>
+              <text className="font-sans text-3xl text-white">{"WAIST 24\""}</text>
+              <text className="font-sans text-3xl text-white">{"HIPS 34.5\""}</text>
+              <text className="font-sans text-3xl text-white">{"SHOE 8 US"}</text>
+              <text className="font-sans text-3xl text-white">{"EYES BROWN"}</text>
+              <text className="font-sans text-3xl text-white">{"HAIR BLACK"}</text>
             </div>
             <div className="hidden group-hover:block group-hover:absolute group-hover:top-8 group-hover:left-8">
               <text className="font-sans text-6xl text-white">
@@ -73,13 +73,13 @@ export default function Models({
             <text className="font-sans group-hover:hidden">ALEX HAUST</text>
             {/* stats */}
             <div className="hidden group-hover:flex group-hover:flex-col group-hover:absolute group-hover:bottom-8 group-hover:right-8">
-              <text className="font-sans text-3xl text-white">HEIGHT 5'7"</text>
-              <text className="font-sans text-3xl text-white">BUST 32"</text>
-              <text className="font-sans text-3xl text-white">WAIST 24"</text>
-              <text className="font-sans text-3xl text-white">HIPS 34.5"</text>
-              <text className="font-sans text-3xl text-white">SHOE 8 US</text>
-              <text className="font-sans text-3xl text-white">EYES BROWN</text>
-              <text className="font-sans text-3xl text-white">HAIR BLACK</text>
+            <text className="font-sans text-3xl text-white">{"HEIGHT 5'7\""}</text>
+              <text className="font-sans text-3xl text-white">{"BUST 32\""}</text>
+              <text className="font-sans text-3xl text-white">{"WAIST 24\""}</text>
+              <text className="font-sans text-3xl text-white">{"HIPS 34.5\""}</text>
+              <text className="font-sans text-3xl text-white">{"SHOE 8 US"}</text>
+              <text className="font-sans text-3xl text-white">{"EYES BROWN"}</text>
+              <text className="font-sans text-3xl text-white">{"HAIR BLACK"}</text>
             </div>
             <div className="hidden group-hover:block group-hover:absolute group-hover:top-8 group-hover:left-8">
               <text className="font-sans text-6xl text-white">ALEX HAUST</text>
@@ -104,21 +104,13 @@ export default function Models({
               </text>
               {/* stats */}
               <div className="hidden group-hover:flex group-hover:flex-col group-hover:absolute group-hover:bottom-8 group-hover:right-8">
-                <text className="font-sans text-5xl text-white">
-                  HEIGHT 5'7"
-                </text>
-                <text className="font-sans text-5xl text-white">BUST 32"</text>
-                <text className="font-sans text-5xl text-white">WAIST 24"</text>
-                <text className="font-sans text-5xl text-white">
-                  HIPS 34.5"
-                </text>
-                <text className="font-sans text-5xl text-white">SHOE 8 US</text>
-                <text className="font-sans text-5xl text-white">
-                  EYES BROWN
-                </text>
-                <text className="font-sans text-5xl text-white">
-                  HAIR BLACK
-                </text>
+              <text className="font-sans text-5xl text-white">{"HEIGHT 5'7\""}</text>
+              <text className="font-sans text-5xl text-white">{"BUST 32\""}</text>
+              <text className="font-sans text-5xl text-white">{"WAIST 24\""}</text>
+              <text className="font-sans text-5xl text-white">{"HIPS 34.5\""}</text>
+              <text className="font-sans text-5xl text-white">{"SHOE 8 US"}</text>
+              <text className="font-sans text-5xl text-white">{"EYES BROWN"}</text>
+              <text className="font-sans text-5xl text-white">{"HAIR BLACK"}</text>
               </div>
               <div className="hidden group-hover:block group-hover:absolute group-hover:top-8 group-hover:left-8">
                 <text className="font-sans text-6xl text-white">
@@ -131,21 +123,13 @@ export default function Models({
               <text className="font-sans group-hover:hidden">AMANDA BINES</text>
               {/* stats */}
               <div className="hidden group-hover:flex group-hover:flex-col group-hover:absolute group-hover:bottom-8 group-hover:right-8">
-                <text className="font-sans text-5xl text-white">
-                  HEIGHT 5'7"
-                </text>
-                <text className="font-sans text-5xl text-white">BUST 32"</text>
-                <text className="font-sans text-5xl text-white">WAIST 24"</text>
-                <text className="font-sans text-5xl text-white">
-                  HIPS 34.5"
-                </text>
-                <text className="font-sans text-5xl text-white">SHOE 8 US</text>
-                <text className="font-sans text-5xl text-white">
-                  EYES BROWN
-                </text>
-                <text className="font-sans text-5xl text-white">
-                  HAIR BLACK
-                </text>
+              <text className="font-sans text-5xl text-white">{"HEIGHT 5'7\""}</text>
+              <text className="font-sans text-5xl text-white">{"BUST 32\""}</text>
+              <text className="font-sans text-5xl text-white">{"WAIST 24\""}</text>
+              <text className="font-sans text-5xl text-white">{"HIPS 34.5\""}</text>
+              <text className="font-sans text-5xl text-white">{"SHOE 8 US"}</text>
+              <text className="font-sans text-5xl text-white">{"EYES BROWN"}</text>
+              <text className="font-sans text-5xl text-white">{"HAIR BLACK"}</text>
               </div>
               <div className="hidden group-hover:block group-hover:absolute group-hover:top-8 group-hover:left-8">
                 <text className="font-sans text-6xl text-white">
@@ -169,13 +153,13 @@ export default function Models({
             <text className="font-sans group-hover:hidden">LUCAS GAUVEA</text>
             {/* stats */}
             <div className="hidden group-hover:flex group-hover:flex-col group-hover:absolute group-hover:bottom-8 group-hover:right-8">
-              <text className="font-sans text-3xl text-white">HEIGHT 5'7"</text>
-              <text className="font-sans text-3xl text-white">BUST 32"</text>
-              <text className="font-sans text-3xl text-white">WAIST 24"</text>
-              <text className="font-sans text-3xl text-white">HIPS 34.5"</text>
-              <text className="font-sans text-3xl text-white">SHOE 8 US</text>
-              <text className="font-sans text-3xl text-white">EYES BROWN</text>
-              <text className="font-sans text-3xl text-white">HAIR BLACK</text>
+            <text className="font-sans text-3xl text-white">{"HEIGHT 5'7\""}</text>
+              <text className="font-sans text-3xl text-white">{"BUST 32\""}</text>
+              <text className="font-sans text-3xl text-white">{"WAIST 24\""}</text>
+              <text className="font-sans text-3xl text-white">{"HIPS 34.5\""}</text>
+              <text className="font-sans text-3xl text-white">{"SHOE 8 US"}</text>
+              <text className="font-sans text-3xl text-white">{"EYES BROWN"}</text>
+              <text className="font-sans text-3xl text-white">{"HAIR BLACK"}</text>
             </div>
             <div className="hidden group-hover:block group-hover:absolute group-hover:top-8 group-hover:left-8">
               <text className="font-sans text-6xl text-white">
@@ -188,13 +172,13 @@ export default function Models({
             <text className="font-sans group-hover:hidden">EDELIN MONTAY</text>
             {/* stats */}
             <div className="hidden group-hover:flex group-hover:flex-col group-hover:absolute group-hover:bottom-8 group-hover:right-8">
-              <text className="font-sans text-3xl text-white">HEIGHT 5'7"</text>
-              <text className="font-sans text-3xl text-white">BUST 32"</text>
-              <text className="font-sans text-3xl text-white">WAIST 24"</text>
-              <text className="font-sans text-3xl text-white">HIPS 34.5"</text>
-              <text className="font-sans text-3xl text-white">SHOE 8 US</text>
-              <text className="font-sans text-3xl text-white">EYES BROWN</text>
-              <text className="font-sans text-3xl text-white">HAIR BLACK</text>
+            <text className="font-sans text-3xl text-white">{"HEIGHT 5'7\""}</text>
+              <text className="font-sans text-3xl text-white">{"BUST 32\""}</text>
+              <text className="font-sans text-3xl text-white">{"WAIST 24\""}</text>
+              <text className="font-sans text-3xl text-white">{"HIPS 34.5\""}</text>
+              <text className="font-sans text-3xl text-white">{"SHOE 8 US"}</text>
+              <text className="font-sans text-3xl text-white">{"EYES BROWN"}</text>
+              <text className="font-sans text-3xl text-white">{"HAIR BLACK"}</text>
             </div>
             <div className="hidden group-hover:block group-hover:absolute group-hover:top-8 group-hover:left-8">
               <text className="font-sans text-6xl text-white">
@@ -207,13 +191,13 @@ export default function Models({
             <text className="font-sans group-hover:hidden">LORAINE NILE</text>
             {/* stats */}
             <div className="hidden group-hover:flex group-hover:flex-col group-hover:absolute group-hover:bottom-8 group-hover:right-8">
-              <text className="font-sans text-3xl text-white">HEIGHT 5'7"</text>
-              <text className="font-sans text-3xl text-white">BUST 32"</text>
-              <text className="font-sans text-3xl text-white">WAIST 24"</text>
-              <text className="font-sans text-3xl text-white">HIPS 34.5"</text>
-              <text className="font-sans text-3xl text-white">SHOE 8 US</text>
-              <text className="font-sans text-3xl text-white">EYES BROWN</text>
-              <text className="font-sans text-3xl text-white">HAIR BLACK</text>
+            <text className="font-sans text-3xl text-white">{"HEIGHT 5'7\""}</text>
+              <text className="font-sans text-3xl text-white">{"BUST 32\""}</text>
+              <text className="font-sans text-3xl text-white">{"WAIST 24\""}</text>
+              <text className="font-sans text-3xl text-white">{"HIPS 34.5\""}</text>
+              <text className="font-sans text-3xl text-white">{"SHOE 8 US"}</text>
+              <text className="font-sans text-3xl text-white">{"EYES BROWN"}</text>
+              <text className="font-sans text-3xl text-white">{"HAIR BLACK"}</text>
             </div>
             <div className="hidden group-hover:block group-hover:absolute group-hover:top-8 group-hover:left-8">
               <text className="font-sans text-6xl text-white">

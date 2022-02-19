@@ -1,15 +1,15 @@
 import Layout from "../components/Layout";
-import Image from "next/image";
+import Image from "../components/Image";
 import Link from "next/link";
 
-import FarmGirl from "../images/scroll/farmgorl.jpg";
-import AfroGuy from "../images/scroll/afrodude.jpg";
-import RoseGirl from "../images/scroll/rosegirl.jpg";
-import GlassGirl from "../images/scroll/glassgirlslay.jpg";
-import PurpGirl from "../images/scroll/purpgurl.jpg";
-import HazyGirl from "../images/scroll/hazygirl.jpg";
-import CrazyGirl from "../images/scroll/crazygirl.jpg";
-import BlueGuy from "../images/scroll/blueguy.jpg";
+import FarmGirl from "../../public/farmgorl.jpg";
+import AfroGuy from "../../public/afrodude.jpg";
+import RoseGirl from "../../public/rosegirl.jpg";
+import GlassGirl from "../../public/glassgirlslay3by2.jpg";
+import PurpGirl from "../../public/purpgurl.jpg";
+import HazyGirl from "../../public/hazygirl.jpg";
+import CrazyGirl from "../../public/crazygirl.jpg";
+import BlueGuy from "../../public/blueguy.jpg";
 
 type Props = {
   className?: string;

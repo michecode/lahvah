@@ -1,25 +1,27 @@
 import Layout from "../components/Layout";
-import Image from "next/image";
+import Image from "../components/Image";
 import Link from 'next/link';
 
-// const GirlGlasses: HTMLImageElement = require('../images/oladimeji-odunsi-Wu3yqve2gnc-unsplash-cropped.jpg');
-// const GirlGlasses = require('../images/oladimeji-odunsi-Wu3yqve2gnc-unsplash-cropped.jpg');
-import GirlGlasses from "../images/glassgirlslay.jpg";
+const ImageLoader = require("../components/loader");
+
+// const GirlGlasses: HTMLImageElement = require('public/oladimeji-odunsi-Wu3yqve2gnc-unsplash-cropped.jpg');
+// const GirlGlasses = require('public/oladimeji-odunsi-Wu3yqve2gnc-unsplash-cropped.jpg');
+import GirlGlasses from "../../public/glassgirlslay.jpg";
 
 // edited to have same aspect ratio
-import PurpleGirl from '../images/scroll/purpgurl.jpg';
-import FarmGirl from '../images/scroll/farmgorl.jpg';
-import CrazyGirl from '../images/scroll/crazygirl.jpg';
-import FlowerGirl from '../images/scroll/flowergirl.jpg';
-import WaxGuy from '../images/scroll/waxguy.jpg';
-import SnowGuy from '../images/scroll/snowboy.jpg';
-import BlueGuy from '../images/scroll/blueguy.jpg';
-import HazyGirl from '../images/scroll/hazygirl.jpg';
-import AfroGuy from '../images/scroll/afrodude.jpg';
-import RoseGirl from '../images/scroll/rosegirl.jpg';
+import PurpleGirl from '../../public/purpgurl.jpg';
+import FarmGirl from '../../public/farmgorl.jpg';
+import CrazyGirl from '../../public/crazygirl.jpg';
+import FlowerGirl from '../../public/flowergirl.jpg';
+import WaxGuy from '../../public/waxguy.jpg';
+import SnowGuy from '../../public/snowboy.jpg';
+import BlueGuy from '../../public/blueguy.jpg';
+import HazyGirl from '../../public/hazygirl.jpg';
+import AfroGuy from '../../public/afrodude.jpg';
+import RoseGirl from '../../public/rosegirl.jpg';
 
-import InstaIcon from '../images/glyph-logo_May2016.svg';
-import TTIcon from '../images/Vector.svg';
+import InstaIcon from '../../public/glyph-logo_May2016.svg';
+import TTIcon from '../../public/Vector.svg';
 
 type Props = {
   className?: string;
@@ -40,7 +42,7 @@ export default function Index({
     // layout is relative for the lahvah clip graphic at bottom of page
     <Layout title={"Lahvah"}>
       <div className="w-9/12 mx-auto">
-        <Image src={GirlGlasses} />
+        <Image src={GirlGlasses}/>
         {/* ABOUT */}
         <div className="mt-16 grid grid-cols-2">
           <div className="mr-40">

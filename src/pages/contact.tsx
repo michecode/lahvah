@@ -17,7 +17,7 @@ export default function Contact({
 }: Props) {
   return (
     <Layout title={"Lahvah"}>
-      <div className="w-10/12 mx-auto">
+      <div className="w-10/12 mt-12 mb-12 md:mb-48 lg:mb-20 mx-auto">
         <form action="/contact" method="post">
           <p className="mb-4">
             <label className="font-sans text-xl mb-4">Full Name or Company</label>
@@ -49,7 +49,7 @@ export default function Contact({
               name="message"
               required
               placeholder="Tell us what you need"
-              className="bg-slate-200 placeholder:italic p-2 w-96 h-40"
+              className="bg-slate-200 placeholder:italic p-2 w-64 sm:w-96 h-64 sm:h-40"
             />
           </p>
           <input
@@ -59,8 +59,8 @@ export default function Contact({
           />
         </form>
       </div>
-      <div className="min-h-[250px] relative mt-20 overflow-hidden">
-        <h1 className="absolute -bottom-40 -left-8 font-serif text-[320px]">
+      <div className="min-h-[100px] md:min-h-[250px]  relative overflow-hidden">
+        <h1 className="absolute -bottom-16 md:-bottom-32 lg:-bottom-40 -left-4 sm:-left-8 font-serif text-[128px] md:text-[256px] lg:text-[320px]">
           lahvah
         </h1>
       </div>

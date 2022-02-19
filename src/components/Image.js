@@ -11,6 +11,7 @@ export default function Image(props) {
     <NextImage
       {...props}
       loader={customLoader}
+      unoptimized
     />
   );
 }

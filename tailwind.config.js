@@ -18,7 +18,8 @@ module.exports = {
       animation: {
         'slide': 'slide 60s infinite linear'
       }
-    }
+    },
+    
   },
   plugins: [],
 };

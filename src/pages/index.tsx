@@ -146,7 +146,7 @@ export default function Index({
           </div>
           <div className="">
             <h1 className="font-serif text-7xl ml-16 leading-tight">
-              <Link href="/models"><a className="font-serif
+              <Link href="/contact"><a className="font-serif
           text-6xl
           inline-block
           relative

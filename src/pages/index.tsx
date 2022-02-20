@@ -73,6 +73,7 @@ export default function Index({
       </div>
       {/* PHOTO SCROLL */}
       {/* slider */}
+      <Link href="/models">
       <div className="overflow-hidden my-16">
         {/* slide track */}
         <div className="flex animate-slide w-[6200px] ">
@@ -141,6 +142,7 @@ export default function Index({
           </div>
         </div>
       </div>
+      </Link>
       <div className="w-10/12 sm:w-9/12 mx-auto">
         <div className="mt-16 sm:grid sm:grid-cols-2 sm:items-center">
           <div className="sm:mr-40">
